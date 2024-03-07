@@ -9,7 +9,7 @@ import { EditorialModule } from './editorial/editorial.module';
 
 @Module({
   imports: [MongooseModule.forRoot(
-    'mongodb+srv://troserolautaro:troserolautaro@cluster.s2d8u8m.mongodb.net/Libreria?retryWrites=true&w=majority'),
+    'mongodb+srv://troserolautaro:password@cluster.s2d8u8m.mongodb.net/Libreria?retryWrites=true&w=majority'),
     LibroModule,
     AutorModule,
     EditorialModule, 
